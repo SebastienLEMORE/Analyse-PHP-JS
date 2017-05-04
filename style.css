@@ -1,0 +1,101 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	min-width: 240px;
+	margin: 0;
+	word-wrap: break-word;
+}
+#menu {
+	margin: auto;
+	background: #469A38;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+}
+#menu a {
+	color : inherit;
+}
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#menu li {
+	display: inline-block;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+#container{
+	margin : auto;
+	
+}
+a {
+	text-decoration: none;
+	color: #4169E1;
+}
+
+
+fieldset{
+	margin:30px;
+}
+.test{
+	margin:0 auto;
+	width:100px;
+}
+#div {
+	max-width: 400px;
+	margin: auto;
+	margin-top:80px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+input, textarea, button {
+	width: 100%;
+	padding: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	border-radius: 0;
+}
+input[type=submit], button {
+	color: white;
+	background: #469A38;
+	font-weight: bold;
+	height: 30px;
+}
+table {
+ border-width:1px; 
+ border-style:solid; 
+ border-color:black;
+ margin-left:-124%;
+ width:1400px;
+ }
+
+td { 
+ border-width:1px;
+ border-style:solid; 
+ border-color:black;
+ height:90px;
+ width:140px;
+ text-align:center;
+ font-family: Arial, Helvetica, sans-serif; 
+ font-size: 50px;
+ }
+ .formfield-checkbox {
+      position: relative;
+}
+.formfield-checkbox input[type="checkbox"] {
+      position: absolute; top: 0; left: 0;
+}
+.formfield-checkbox input[type="checkbox"] + label {
+      padding: 0px 0px 7px 24px;
+}
